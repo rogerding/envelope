@@ -1,6 +1,6 @@
 ## FIX
 
-The FIX example is an Envelope pipeline that receives [FIX financial messages](https://en.wikipedia.org/wiki/Financial_Information_eXchange) of order fulfillment and updates the representation of the order in Apache Kudu (incubating). This use case would allow near-real-time analytics of order history.
+The FIX example is an Envelope pipeline that receives [FIX financial messages](https://en.wikipedia.org/wiki/Financial_Information_eXchange) of order fulfillment and updates the representation of the order in Apache Kudu. This use case would allow near-real-time analytics of order history.
 
 The configuration for this example is found [here](http://github.com/cloudera-labs/envelope/blob/master/examples/fix/fix.properties). The messages do not conform to the real FIX protocol but should be sufficient to demonstrate how a complete implementation could be developed.
 
